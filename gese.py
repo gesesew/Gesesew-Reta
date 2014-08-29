@@ -1,2 +1,2 @@
 __author__ = 'gesesew'
-print ("peac for world")
+print ("peacee for world")
