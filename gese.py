@@ -19,8 +19,8 @@ def square_area(side):
     return side*side
 print (square_area(7))
 if __name__=="__main__":
-    sampleSide = 4
+    sampleSide = 7
     print("area:",
-          square_area(sampleSide),
+          square_area(7),
           "perimeter:",
-          square_perimeter(sampleSide))
+          square_perimeter(7))
