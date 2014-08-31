@@ -1,5 +1,5 @@
 #1 1111111111111111111111111111111111111111111111111111111111111111111111111
-# Assignment Submitted by: Gesesew Reta Habtie;and submitted to:
+# Assignment Submitted by: Gesesew Reta Habtie
 from math import sqrt
 from numpy import *
 from numbers import Number
@@ -60,7 +60,7 @@ def cylinder_volume(r, h):
     """
     calculate the volume of a cylinder with height 50cm and radius 20cm.(use pi=3.14)
     :param r: the radius of the cylinder
-    :param h: the height pf the cylinder
+    :param h: the height of the cylinder
     :return:the volume of a cylinder
     """
     cylinder_volume=(pi*r**2)*h
