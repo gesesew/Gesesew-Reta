@@ -61,15 +61,17 @@ def cylinder_volume(radius, height):
     return 3.14*radius*radius*height
 print(cylinder_volume(20,50))
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
 def circle_area(r):
     """
     determine the area of the circle with radius 10cm
     :param r: the radius of a given circle
     :return:the area of the given circle
     """
-    Circle_area=pi*r**2
+    circle_area= 3.14*r**2
     return circle_area
 print(circle_area(10))
+
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 def isosceles_triangle_area(b,h):
     """
