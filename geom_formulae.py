@@ -1,31 +1,38 @@
 #1 1111111111111111111111111111111111111111111111111111111111111111111111111
+
 # Assignment Submitted by: Gesesew Reta Habtie
+
 from math import sqrt
 from numpy import *
 from numbers import Number
+
 def rectangle_perimeter(side:Number)->Number:
     """
-    calculate the erimeter of rectangel from side length.
+    calculate the perimeter of rectangle from side length.
     :param side: the side length
     :return:the area (unitas side length)
     """
     return 4*side
 print (rectangle_perimeter(4))
+
 #2 22222222222222222222222222222222222222222222222222222222222222222222222222222222222
+
 def rectangle_area(l,w):
     """
-    calculate the area of rectangle from the area side length and width
+    calculate the area of rectangle from the it's side length and width
     :param l: the side length
     :param w: the width
-    :return:the area as side length and width
+    :return:the area
     """
     rectangle_area=l*w
     return rectangle_area
 print (rectangle_area(4,5))
+
 #3 33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
 def trapezium_area(b1,b2,h):
     """
-    calculate the area of trapezium from the base1,base2 and height.
+    calculate the area of trapezium from the b1=4,b2=6 and h=5.
     :param b1:the smallest base of trapezium
     :param b2:the longest base of trapezium
     :param h:the distance from base1 to base2
@@ -34,17 +41,21 @@ def trapezium_area(b1,b2,h):
     trapezium_area=((b1+b2)*h)/2
     return trapezium_area
 print (trapezium_area(4,6,5))
+
 #4 444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
+
 def cube_volume (l):
     """
     calculate the volume of cube with side length.
     :param l: side length of cube let: l= 4cm
     :return:the volume of cube
     """
-    cube_volume=(l**2)*l
+    cube_volume=l**3
     return cube_volume
 print (cube_volume(4))
+
 #5 555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
+
 def cone_volume (h,r):
     """
     calculate the volume of the cube from the radius of the base and height.
@@ -55,7 +66,9 @@ def cone_volume (h,r):
     cone_Volume=(pi*r**2*h)/3
     return cone_Volume
 print (cone_volume(5,4))
+
 #6 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
+
 def cylinder_volume(r, h):
     """
     calculate the volume of a cylinder with height 50cm and radius 20cm.(use pi=3.14)
@@ -66,7 +79,9 @@ def cylinder_volume(r, h):
     cylinder_volume=(pi*r**2)*h
     return cylinder_volume
 print(cylinder_volume(20,50))
+
 #7 777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
+
 def circle_area(r):
     """
     determine the area of the circle with radius 10cm.
@@ -76,7 +91,9 @@ def circle_area(r):
     circle_area=pi*r**2
     return circle_area
 print(circle_area(10))
+
 #8 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+
 def isosceles_triangle_area(b,h):
     """
     determine the area of isosceles triangle whose sides long 5cm, 5cm and 6cm, when the vertical distance from the
@@ -88,7 +105,9 @@ def isosceles_triangle_area(b,h):
     area=(b*h)/2
     return area
 print (isosceles_triangle_area(6,4))
+
 #9 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+
 def perimeter_regular_hexagon(side:Number)->Number:
     """
     calculate the perimeter of regular hexagon with side 3cm.
@@ -97,7 +116,9 @@ def perimeter_regular_hexagon(side:Number)->Number:
     """
     return 6*side
 print(perimeter_regular_hexagon(3))
+
 #10 101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010
+
 def cuboid_volume(l,w,h):
     """
     calculate the volume of cuboid, with l=10cm, w=70cm and h=100cm.
@@ -109,7 +130,9 @@ def cuboid_volume(l,w,h):
     volume=l*w*h
     return volume
 print (cuboid_volume(10,70,100))
+
 #11 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
 def volume_sphere(r: Number)->Number:
     """
     calculate the volume of sphere of radius 4cm.
@@ -121,7 +144,9 @@ def volume_sphere(r: Number)->Number:
     return volume
 
 print(volume_sphere(4))
+
 #12 12121212121212121212121212121212121212121212121212122121212121212121212121212121212121212121212
+
 def area_regular_hexagon(s):
     """
     calculate the area of given regular hexagon with side length 4cm.
@@ -132,6 +157,20 @@ def area_regular_hexagon(s):
     return area
 print (area_regular_hexagon(4))
 
+#13 1313131313131313131313131313131313131313131313133131313131313131313131313131313131313131313131
+
+def cylinder_area(r,h):
+    """
+    calculate the area of a cylinder, which has 5cm radius and 20cm height.
+    :param r: radius of a cylinder
+    :param h: height of a cylinder
+    :return:area of a cylinder
+    """
+    area= 2*pi*r**2 + 2*pi*r*h
+    return area
+print (cylinder_area(5,20))
+
+#end end end end end
 
 
 
