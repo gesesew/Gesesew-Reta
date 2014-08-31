@@ -1,3 +1,4 @@
+from math import sqrt
 from numbers import Number
 def square_perimeter(side:Number)->Number:
     """
@@ -24,3 +25,12 @@ if __name__=="__main__":
           square_area(7),
           "perimeter:",
           square_perimeter(7))
+def area_hexagon(s):
+    """
+    cal
+    :param s: side length
+    :return:area
+    """
+    area=(3*(sqrt(3)*s**2)/2)
+    return area
+print (area_hexagon(4))

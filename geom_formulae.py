@@ -1,4 +1,6 @@
 #1 1111111111111111111111111111111111111111111111111111111111111111111111111
+# Assignment Submitted by: Gesesew Reta Habtie;and submitted to:
+from math import sqrt
 from numpy import *
 from numbers import Number
 def rectangle_perimeter(side:Number)->Number:
@@ -119,7 +121,16 @@ def volume_sphere(r: Number)->Number:
     return volume
 
 print(volume_sphere(4))
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+#12 12121212121212121212121212121212121212121212121212122121212121212121212121212121212121212121212
+def area_regular_hexagon(s):
+    """
+    calculate the area of given regular hexagon with side length 4cm.
+    :param s: length of each side of the given hexagon
+    :return:area of the given hexagon.
+    """
+    area=(3*sqrt(3)*s**2)/2
+    return area
+print (area_regular_hexagon(4))
 
 
 
