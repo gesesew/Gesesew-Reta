@@ -91,13 +91,13 @@ def draw_right_angle_triangle(x,y,r):
 
 if __name__== "__main__":
 
-    #draw_square(55)
-    #draw_triangle(100)
-    #draw_rectangle(100,200)
-    #draw_circle(100)
+    draw_square(55)
+    draw_triangle(100)
+    draw_rectangle(100,200)
+    draw_circle(100)
     draw_semi_circle(100)
-    #draw_rhombus(100)
-    #draw_regular_hexagon(100)
-    #draw_isosceles_trapezium(123,100,90)
-    #draw_right_angle_triangle(200,200,282.8)
-    #draw_parallelogram(80,100)
+    draw_rhombus(100)
+    draw_regular_hexagon(100)
+    draw_isosceles_trapezium(123,100,90)
+    draw_right_angle_triangle(200,200,282.8)
+    draw_parallelogram(80,100)
